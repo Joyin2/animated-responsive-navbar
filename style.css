@@ -151,7 +151,7 @@ section{
 }
 
 .dropdown-link:hover > a{
-    background-color: #5cc9ff;
+    background-color: #69bde7;
     color: #fff;
 }
 
@@ -174,7 +174,7 @@ section{
     transition: .3s;
 }
 .dropdown-link:first-child:hover ~ .arrow{
-    background-color: #5cc9ff;
+    background-color: #69bde7;
 }
 .nav-link:hover > .dropdown,
 .dropdown-link:hover > .dropdown{
@@ -357,14 +357,14 @@ section{
 
     .arrow{
         z-index: 1;
-        background-color: #3a91bd;
+        background-color: #5cc9ff;
         left: 10%;
         transform: scale(1.1) rotate(45deg);
         transition: .5s;
     }
     
     .nav-link:hover .arrow{
-        background-color: #5cc9ff;
+        background-color: #3183ac;
     }
     .dropdown .dropdown .arrow{
         display: none;
@@ -376,7 +376,7 @@ section{
     }
 
     .dropdown-link:first-child:hover ~ .arrow{
-        background-color: #5cc9ff;
+        background-color: #3a91bd;
     }
 
     .nav-link > a > i{
